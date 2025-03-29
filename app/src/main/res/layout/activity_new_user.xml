@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2025_03_28_at_00_19_50"
     tools:context=".New_User">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
