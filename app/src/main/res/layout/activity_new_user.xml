@@ -5,7 +5,54 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/whatsapp_image_2025_03_28_at_00_19_50"
+    android:background="@drawable/whatsapp_image_2025_03_28_at_00_19_49"
     tools:context=".New_User">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="337dp"
+        android:layout_marginBottom="791dp"
+        android:fontFamily="@font/asset"
+        android:text="New User's Page"
+        android:textColor="#1B1A1A"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingsTextView"
+        android:layout_width="688dp"
+        android:layout_height="416dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="421dp"
+        android:layout_marginBottom="324dp"
+        android:fontFamily="@font/alexandria_medium"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/newUserButton"
+        android:layout_width="243dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="631dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="631dp"
+        android:layout_marginBottom="130dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Get Started"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsTextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

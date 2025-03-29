@@ -5,6 +5,105 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/whatsapp_image_2025_03_28_at_00_19_50"
     tools:context=".Home_Page">
 
+    <Button
+        android:id="@+id/generateFoodButton"
+        android:layout_width="437dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="530dp"
+        android:layout_marginTop="843dp"
+        android:layout_marginEnd="529dp"
+        android:layout_marginBottom="268dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Generate Food"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="451dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="449dp"
+        android:layout_marginBottom="1122dp"
+        android:fontFamily="@font/asset"
+        android:text="Home Page"
+        android:textColor="#0D0C0C"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/timeEditText"
+        android:layout_width="631dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="433dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="432dp"
+        android:layout_marginBottom="735dp"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:hint="Please enter LIght or Heavy"
+        android:inputType="text"
+        android:textColor="#2F2D2D"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/foodSuggestionEditText"
+        android:layout_width="576dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="463dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="457dp"
+        android:layout_marginBottom="390dp"
+        android:fontFamily="@font/alexandria_medium"
+        android:text="Food Suggestion: "
+        android:textColor="#141313"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeEditText" />
+
+    <Button
+        android:id="@+id/resetFoodButton"
+        android:layout_width="437dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="530dp"
+        android:layout_marginTop="976dp"
+        android:layout_marginEnd="529dp"
+        android:layout_marginBottom="135dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Reset Food"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="901dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="297dp"
+        android:layout_marginBottom="80dp"
+        android:scrollbarSize="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/timeEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
