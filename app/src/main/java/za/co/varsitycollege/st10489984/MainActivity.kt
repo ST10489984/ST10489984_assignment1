@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, Home_Page::class.java)
                 startActivity(intent)
             } else {
-                val intent = Intent(this,Home_Page::class.java)
-                startActivity(intent)
+                val intention = Intent(this,Home_Page::class.java)
+                startActivity(intention)
             }
         }
     }

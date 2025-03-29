@@ -1,6 +1,9 @@
 package za.co.varsitycollege.st10489984
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +18,19 @@ class New_User : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+        val settingsTextView = findViewById<TextView>(R.id.settingsTextView)
+
+        val newUserButton = findViewById<Button>(R.id.newUserButton)
+
+        settingsTextView.text.toString()=="Use the drop down to select whether you want Breakfast, Lunch or Dinner.\n" +
+                "Enter if whether you would like to eat something light or heavy.\n" + "Click on the 'Generate food' button.\n" +
+                ""
+
+        newUserButton.setOnClickListener() {
+            val intent = Intent(this,Home_Page::class.java)
+
+            startActivity(intent)
         }
     }
 }
