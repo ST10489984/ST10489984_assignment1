@@ -6,37 +6,71 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/dall_e_2025_03_26_05_45_37___a_vibrant__dynamic_image_for_a_food_app__depicting_meal_options_based_on"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="1259dp"
-        tools:layout_editor_absoluteY="75dp" />
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="254dp"
+        android:layout_marginBottom="634dp"
+        android:fontFamily="@font/asset"
+        android:text="Edible Elegance"
+        android:textColor="#1B1919"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="1302dp"
-        tools:layout_editor_absoluteY="933dp" />
+        android:id="@+id/getStartedButton"
+        android:layout_width="199dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="463dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="440dp"
+        android:layout_marginBottom="281dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Get Started"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="284dp"
-        tools:layout_editor_absoluteY="503dp" />
+        android:layout_width="209dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="841dp"
+        android:layout_marginBottom="464dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Are you a new user?"
+        android:textColor="#333030"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Switch"
-        tools:layout_editor_absoluteX="500dp"
-        tools:layout_editor_absoluteY="653dp" />
+        android:id="@+id/newUserSwitch"
+        android:layout_width="162dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="242dp"
+        android:layout_marginEnd="837dp"
+        android:layout_marginBottom="422dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Yes or No"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
