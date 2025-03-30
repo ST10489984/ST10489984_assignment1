@@ -29,12 +29,13 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity, "Starting", Toast.LENGTH_SHORT).show()
             var user: Boolean = newUserSwitch.isChecked
             if (user) {
-                val intent = Intent(this, Home_Page::class.java)
+                val intent = Intent(this, New_User::class.java)
                 startActivity(intent)
             } else {
-                val intention = Intent(this,Home_Page::class.java)
-                startActivity(intention)
+                val intent = Intent(this,Home_Page::class.java)
+                startActivity(intent)
             }
+
         }
     }
 }

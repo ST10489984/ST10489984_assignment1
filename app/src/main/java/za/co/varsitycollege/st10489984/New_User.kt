@@ -24,8 +24,8 @@ class New_User : AppCompatActivity() {
         val newUserButton = findViewById<Button>(R.id.newUserButton)
 
         settingsTextView.text.toString()=="Use the drop down to select whether you want Breakfast, Lunch or Dinner.\n" +
-                "Enter if whether you would like to eat something light or heavy.\n" + "Click on the 'Generate food' button.\n" +
-                ""
+                "Enter if whether you would like to eat something light or heavy.\n" + "Click on the 'Generate food' button to get options.\n" +
+                "Click on the 'Reset food' to clear options."
 
         newUserButton.setOnClickListener() {
             val intent = Intent(this,Home_Page::class.java)
