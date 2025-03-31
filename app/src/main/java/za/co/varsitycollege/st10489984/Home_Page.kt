@@ -64,7 +64,7 @@ class Home_Page : AppCompatActivity() {
             }
 
 
-            val food: String
+            var food: String = ""
             when {
                 type==Type.Breakfast && timeEditText.text.toString()=="Light" -> food = "You may have:\n\n" +
                         "Chocolate-Zucchini Bran Muffin\n" + "Sweet Potatoes with Yogurt, Almond Butter and Pepita Granola\n" +
@@ -88,8 +88,10 @@ class Home_Page : AppCompatActivity() {
                         "Squid Salad, Roast Tomato, Potato & Capsicum Chilli Relish\n"
 
                 type==Type.Dinner && timeEditText.text.toString()=="Heavy" -> food = "You may have:\n\n" +
-                        "" + "" + "" + "" + ""
+                        "Lasagna\n" + "Mac n Cheese\n" + "Stew\n" + "Mince mate\n" + "Achni\n"
             }
+            foodSuggestionEditText.text = food
+
         }
     }
 }

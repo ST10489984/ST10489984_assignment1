@@ -29,18 +29,21 @@
 
     <TextView
         android:id="@+id/settingsTextView"
-        android:layout_width="354dp"
-        android:layout_height="324dp"
+        android:layout_width="350dp"
+        android:layout_height="344dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="176dp"
         android:layout_marginEnd="26dp"
         android:layout_marginBottom="231dp"
         android:fontFamily="@font/alexandria_medium"
-        android:textSize="20sp"
+        android:text="Enter whether you would like to have something light or heavy.Pick if you would like breakfast, lunch or dinner and click on the generating button to get the suggestions. Click on the clear food to clear options and the edit text and have the option to restart options. Use the app responsibly "
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/newUserButton"
