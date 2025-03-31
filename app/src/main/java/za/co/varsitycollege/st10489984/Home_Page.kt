@@ -14,6 +14,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class Home_Page : AppCompatActivity() {
+    // Enum class to define meal types
     enum class Type {
         Breakfast,
         Lunch,
@@ -29,30 +30,36 @@ class Home_Page : AppCompatActivity() {
             insets
         }
 
+        // Initialize UI elements
         val foodSuggestionEditText = findViewById<TextView>(R.id.foodSuggestionEditText)
-
         val generateFoodButton = findViewById<Button>(R.id.generateFoodButton)
-
         val timeEditText = findViewById<EditText>(R.id.timeEditText)
-
         val clearFoodButton = findViewById<Button>(R.id.resetFoodButton)
-
         val typeSpinner = findViewById<Spinner>(R.id.typeSpinner)
 
+        // Set up the spinner with meal types
         typeSpinner.adapter=ArrayAdapter<Home_Page.Type>(this,android.R.layout.simple_list_item_1,Type.values())
 
+        // Clear button functionality
         clearFoodButton?.setOnClickListener {
             Toast.makeText(this@Home_Page, "Clearing options", Toast.LENGTH_SHORT).show()
+            // Clear the time input
             timeEditText.text.clear()
+            // Clear the food suggestion
             foodSuggestionEditText.text=""
         }
 
+        // Generate food button functionality
         generateFoodButton?.setOnClickListener {
             Toast.makeText(this@Home_Page, "Generating Food", Toast.LENGTH_SHORT).show()
+            // Get the selected meal type
             val type = typeSpinner.selectedItem as Type
+            // Get the input time
             val time = timeEditText.text.toString()
 
+            // Check if the time input is empty
             if (time.isEmpty()) {
+                // Show an alert dialog if the input is empty
                 val builder = AlertDialog.Builder(this)
                 builder.setTitle("Input Error")
                 builder.setMessage("Please enter whether you would like something light or heavy.")
@@ -60,11 +67,14 @@ class Home_Page : AppCompatActivity() {
                     dialog, _ -> dialog.dismiss()
                 }
                 builder.show()
+                // Exit the click listener
                 return@setOnClickListener
             }
 
 
+            // Variable to hold the food suggestion
             var food: String = ""
+            // Determine food suggestions based on type and time
             when {
                 type==Type.Breakfast && timeEditText.text.toString()=="Light" -> food = "You may have:\n\n" +
                         "Chocolate-Zucchini Bran Muffin\n" + "Sweet Potatoes with Yogurt, Almond Butter and Pepita Granola\n" +

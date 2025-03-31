@@ -19,14 +19,15 @@ class New_User : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val settingsTextView = findViewById<TextView>(R.id.settingsTextView)
 
+        // Find the button for creating a new user
         val newUserButton = findViewById<Button>(R.id.newUserButton)
 
-
+        // Set an OnClickListener for the new user button
         newUserButton.setOnClickListener() {
+            // Create an Intent to start the Home_Page activity
             val intent = Intent(this,Home_Page::class.java)
-
+            // Start the Home_Page activity
             startActivity(intent)
         }
     }
