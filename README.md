@@ -20,7 +20,7 @@ The app generates food suggestions based on the selected meal type and time pref
 Users can clear their selctions and inputs using a button which resets the meal suggestions and input fields. By doing so, it enhances the user experience by allowing the, to start over easily.
 
 - Error Handling
-The appp includes basic error handling to prompt users if the don't enter a time preference which ensures user are guided to provide the necessary input for generating suggestions.
+The app includes basic error handling to prompt users if the don't enter a time preference which ensures user are guided to provide the necessary input for generating suggestions.
 
 - User Feedback
 The app provides feedback to users through Toast messages when generating food suggestions or clearing options. That helps keep the user informed about their actions.
@@ -37,6 +37,8 @@ The app uses many UI elements which contribute to a user-friendly interface for 
 ![Home Page](https://github.com/user-attachments/assets/1c9b12ee-56b2-4464-971c-ed05155ce52c)
 
 ![New users Page](https://github.com/user-attachments/assets/cc096366-7377-43c3-b771-fc0758b7e079)
+
+
 ## Video
 ## Requirements
 
