@@ -2,7 +2,7 @@
 # ST10489984
 ## Assignment 1
 
-An app that'll help give suggestions on what to eat at different times of day, based on whether you would like something heavy or light. There a total of 30 suggestions to choose from.
+An app that'll help give suggestions on what to eat at different times of day, based on whether you would like something heavy or light. There are a total of 30 suggestions to choose from.
 
 
 ## Features
@@ -11,7 +11,7 @@ An app that'll help give suggestions on what to eat at different times of day, b
 Users select a meal type from a dropdown, which allows for tailored suggestions based on the type of meal they are interested in.
 
 - Time Preference Input
-Users can input their preference for the meal heaviness which adds a layor of customisation to the meal suggestions.
+Users can input their preference for the meal heaviness, which adds a layer of customisation to the meal suggestions.
 
 - Food Suggestions Generation
 The app generates food suggestions based on the selected meal type and time preference which provides user with specific meal ideas based on their choices.
@@ -26,7 +26,7 @@ The app includes basic error handling to prompt users if the don't enter a time 
 The app provides feedback to users through Toast messages when generating food suggestions or clearing options. That helps keep the user informed about their actions.
 
 - User Interface Elements
-The app uses many UI elements which contribute to a user-friendly interface for meal selection and suggestions
+The app uses many UI elements, which contribute to a user-friendly interface for meal selection and suggestions
 
 
 ## Screenshots
@@ -40,6 +40,9 @@ The app uses many UI elements which contribute to a user-friendly interface for 
 
 
 ## Video
+
+[Watch my video](https://youtu.be/zLdVcx-hx5I)
+https://youtu.be/zLdVcx-hx5I
 ## Requirements
 
 - Microsoft C++ redistributable
