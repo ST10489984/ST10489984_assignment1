@@ -115,5 +115,28 @@ If you experience any issues with the app, please try restarting it. You can als
 
 Yes, we plan to regularly update the meal suggestions to include new recipes and options based on user feedback and trends in the culinary world.
 
+## Reference List
+
+I used this link for the GitHub Actions
+https://github.com/marketplace/actions/automated-build-android-app-with-github-action [Accessed 01 April 2025]
+
+Breakfast 
+   https://www.goodhousekeeping.com/food-recipes/easy/g871/quick-breakfasts/ 
+[Accessed 16 March 2025]
+
+Lunch
+ https://www.nestleprofessional.co.za/za/food-recipes?gad_source=1&gbraid=0AAAAACWEl0g83Xul8LEHxzHg5tf1e5HUz&gclid=Cj0KCQjwv_m-BhC4ARIsAIqNeBsCEwpqapIVUaAIsMz6uoGwKjAN60H7PiEOW7tEhvrHU7kQGLmfAssaAhA3EALw_wcB 	
+[Accessed 16 March 2025]
+
+https://www.bbcgoodfood.com/recipes/collection/easy-dinner-recipes 
+[Accessed 16 March 2025]
+
+Dinner 
+
+https://temptationforfood.com/recipes/first-course/                 
+[Accessed 22 March 2025]
+
+https://www.delish.com/cooking/recipe-ideas/g3166/cheap-easy-recipes/ 
+[Accessed 22 March 2025]
 
 
